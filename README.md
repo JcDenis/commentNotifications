@@ -12,9 +12,7 @@
 _commentNotifications_ is a plugin for the open-source 
 web publishing software called Dotclear.
 
-It help you to share books, musics and more with your visitor.
-It is hightly based on cinecturlink for Dotclear 1 
-by Tigroux and maintain by brol.
+It displays notifications on menu and dashboard when new comments arrive.
 
 ## REQUIREMENTS
 
