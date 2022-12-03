@@ -1,32 +1,26 @@
 <?php
-# -- BEGIN LICENSE BLOCK ----------------------------------
-# This file is part of commentNotifications, a plugin for Dotclear.
-# 
-# Copyright (c) 2010 Tomtom
-# http://blog.zenstyle.fr/
-# 
-# Licensed under the GPL version 2.0 license.
-# A copy of this license is available in LICENSE file or at
-# http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
-# -- END LICENSE BLOCK ------------------------------------
-
-if (defined('DC_CONTEXT_ADMIN')) { return; }
+/**
+ * @brief commentNotifications, a plugin for Dotclear 2
+ *
+ * @package Dotclear
+ * @subpackage Plugin
+ *
+ * @author Tomtom (http://blog.zenstyle.fr/)
+ *
+ * @copyright Jean-Christian Denis
+ * @copyright GPL-2.0 https://www.gnu.org/licenses/gpl-2.0.html
+ */
+if (defined('DC_CONTEXT_ADMIN')) {
+    return;
+}
 
 class commentNotificationsRestMethods
 {
-	public static function getNbComments()
-	{
-		global $core;
-		
-		$params = array('no_content' => true);
-		
-		$nb_comment = $core->blog->getComments($params,true)->f(0);
-		
-		$rsp = new xmlTag();
-		$rsp->comments($nb_comment);
-		
-		return $rsp;
-	}
-}
+    public static function getNbComments()
+    {
+        $rsp = new xmlTag();
+        $rsp->comments(dcCore::app()->blog->getComments(['no_content' => true], true)->f(0));
 
-?>
+        return $rsp;
+    }
+}
