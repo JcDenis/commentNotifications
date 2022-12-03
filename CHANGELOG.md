@@ -1,0 +1,5 @@
+0.4 - 2022.12.03
+- Update to dotclear 2.24
+
+0.3.3
+- Version from Dotaddict
