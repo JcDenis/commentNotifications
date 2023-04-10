@@ -27,12 +27,17 @@ It displays notifications on menu and dashboard when new comments arrive.
 First install _commentNotifications_, manualy from a zip package or from 
 Dotaddict repository. (See Dotclear's documentation to know how do this)
 
-
 ## LINKS
 
  * License : [GNU GPL v2](https://www.gnu.org/licenses/old-licenses/lgpl-2.0.html)
  * Source & contribution : [GitHub Page](https://github.com/JcDenis/commentNotifications)
  * Packages & details : [Dotaddict Page](https://plugins.dotaddict.org/dc2/details/commentNotifications)
+
+## NOTE
+
+I (JcDenis) am no longer supported this plugin.
+You can use plugins dmLastComments and notifyMe to do the same.
+Or you can fork this repository and update this plugin.
 
 ## CONTRIBUTORS
 
