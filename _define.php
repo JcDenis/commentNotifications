@@ -5,7 +5,7 @@
  * @package Dotclear
  * @subpackage Plugin
  *
- * @author Tomtom (http://blog.zenstyle.fr/)
+ * @author Tomtom and Contributors
  *
  * @copyright Jean-Christian Denis
  * @copyright GPL-2.0 https://www.gnu.org/licenses/gpl-2.0.html
@@ -17,10 +17,10 @@ if (!defined('DC_RC_PATH')) {
 $this->registerModule(
     'commentNotifications',
     'Displays notifications on menu and dashboard when new comments arrive',
-    'Tomtom (http://blog.zenstyle.fr/)',
-    '0.4',
+    'Tomtom and Contributors',
+    '0.5-dev',
     [
-        'requires'    => [['core', '2.24']],
+        'requires'    => [['core', '2.26']],
         'permissions' => dcCore::app()->auth->makePermissions([
             dcAuth::PERMISSION_USAGE,
         ]),

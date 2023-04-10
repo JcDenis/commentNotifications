@@ -2,11 +2,11 @@
 <modules xmlns:da="http://dotaddict.org/da/">
   <module id="commentNotifications">
     <name>commentNotifications</name>
-    <version>0.4</version>
-    <author>Tomtom (http://blog.zenstyle.fr/)</author>
+    <version>0.5-dev</version>
+    <author>Tomtom and Contributors</author>
     <desc>Displays notifications on menu and dashboard when new comments arrive</desc>
-    <file>https://github.com/JcDenis/commentNotifications/releases/download/v0.4/plugin-commentNotifications.zip</file>
-    <da:dcmin>2.24</da:dcmin>
+    <file>https://github.com/JcDenis/commentNotifications/releases/download/v0.5-dev/plugin-commentNotifications.zip</file>
+    <da:dcmin>2.26</da:dcmin>
     <da:details>https://plugins.dotaddict.org/dc2/details/commentNotifications</da:details>
     <da:support>https://github.com/JcDenis/commentNotifications</da:support>
   </module>
